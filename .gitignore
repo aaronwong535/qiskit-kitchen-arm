@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+results/ik_qubos.npy
+results/*.log

@@ -1,0 +1,10 @@
+qiskit>=2.1
+qiskit-aer>=0.17
+qiskit-ibm-runtime>=0.50
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+pillow>=10
+pytest>=8
+pylatexenc>=2.10      # circuit drawings (scripts/draw_circuits.py)
