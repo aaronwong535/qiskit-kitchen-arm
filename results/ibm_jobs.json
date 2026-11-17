@@ -1,0 +1,102 @@
+{
+ "backend": "ibm_marrakesh",
+ "created": "2026-11-16 01:41:36",
+ "args": {
+  "shots": 1024,
+  "ik_instances": 40,
+  "kernel_train": 16,
+  "kernel_test": 8,
+  "depths": "1,3",
+  "policy_obs": 40,
+  "policy_seed": 2,
+  "modules": "m1,m2,m3,m4,m5"
+ },
+ "jobs": {
+  "m1_p1": {
+   "job_id": "dbtcvkfasvbs73b9je9g",
+   "backend": "ibm_marrakesh",
+   "n_instances": 7,
+   "fingerprint": "7686efe585d168de",
+   "circuit": {
+    "depth": 432,
+    "two_qubit_gates": 202,
+    "size": 941
+   },
+   "est_qpu_s": 4.150399999999999
+  },
+  "m1_p3": {
+   "job_id": "dbtcvkhvvpic738mqqtg",
+   "backend": "ibm_marrakesh",
+   "n_instances": 7,
+   "fingerprint": "04c3971156fad669",
+   "circuit": {
+    "depth": 1178,
+    "two_qubit_gates": 675,
+    "size": 2892
+   },
+   "est_qpu_s": 4.150399999999999
+  },
+  "m2_p1": {
+   "job_id": "dbtcvkhvvpic738mqqu0",
+   "backend": "ibm_marrakesh",
+   "n_instances": 40,
+   "fingerprint": "e1325fae83c62e70",
+   "circuit": {
+    "depth": 296,
+    "two_qubit_gates": 166,
+    "size": 792
+   },
+   "est_qpu_s": 14.287999999999998
+  },
+  "m2_p3": {
+   "job_id": "dbtcvkvq0h0s73bkk860",
+   "backend": "ibm_marrakesh",
+   "n_instances": 40,
+   "fingerprint": "632926332693ca5d",
+   "circuit": {
+    "depth": 750,
+    "two_qubit_gates": 508,
+    "size": 2396
+   },
+   "est_qpu_s": 14.287999999999998
+  },
+  "m3_kernel": {
+   "job_id": "dbtcvl3eq3sc73evllf0",
+   "backend": "ibm_marrakesh",
+   "n_instances": 248,
+   "fingerprint": "6a8df84cb87de9fa",
+   "circuit": {
+    "depth": 98,
+    "two_qubit_gates": 22,
+    "size": 170
+   },
+   "est_qpu_s": 78.1856
+  },
+  "m4_kernel": {
+   "job_id": "dbtcvl7asvbs73b9jeb0",
+   "backend": "ibm_marrakesh",
+   "n_instances": 248,
+   "fingerprint": "1d3398b3dd45c724",
+   "circuit": {
+    "depth": 140,
+    "two_qubit_gates": 34,
+    "size": 252
+   },
+   "est_qpu_s": 78.1856
+  },
+  "m5_policy": {
+   "job_id": "dbtcvl9vvpic738mqqv0",
+   "backend": "ibm_marrakesh",
+   "n_instances": 40,
+   "fingerprint": "cfc49d1f39b0f45b",
+   "circuit": {
+    "depth": 121,
+    "two_qubit_gates": 56,
+    "size": 227
+   },
+   "est_qpu_s": 14.287999999999998
+  }
+ },
+ "collected": true,
+ "batch_id": "fe53e481-9903-4457-a9e3-3e7cc3e44d50"
+}
