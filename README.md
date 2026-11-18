@@ -28,7 +28,7 @@ quantum algorithm, run in Qiskit, and compared with an exact or classical baseli
 
 ### Links
 
-* **Presentation video:** [YouTube](https://www.youtube.com/watch?v=VIDEO_ID) <!-- TODO: replace VIDEO_ID with the presentation video link -->
+* **Presentation video:** [YouTube](https://youtu.be/UP2QvYcpZn0) 
 * **Quantum circuits:** [figures/circuits/Circuit_README.md](figures/circuits/Circuit_README.md): all seven circuits, their gate counts and their results on ibm_marrakesh
 * **IBM hardware run:** [results/hardware_summary.md](results/hardware_summary.md): job IDs, QPU time and the ideal vs noisy vs hardware comparison
 
